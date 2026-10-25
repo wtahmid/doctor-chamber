@@ -120,6 +120,7 @@ CREATE TABLE appointments (
   -- Booking data
   date            DATE NOT NULL,
   time            TEXT NOT NULL,      -- HH:MM in Asia/Dhaka
+  serial_number   TEXT,               -- optionally assigned serial number
   duration        TEXT NOT NULL,      -- e.g. '30 min'
 
   -- Reference & status
